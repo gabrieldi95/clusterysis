@@ -6,5 +6,5 @@ setup(
     description='A library for visualizing clusters.',
     author='Gabriel Di Pardi Arruda',
     license='MIT',
-    install_requires=['plotly', 'pandas']
+    install_requires=['plotly', 'pandas'],
 )
