@@ -10,7 +10,7 @@ setup(
     version='0.1.0',
     description='A library for visualizing clusters.',
     #long_description=long_description,
-    long_description="""# Clusterysis""",
     long_description_content_type='text/markdown',
+    long_description=README,
     author='Gabriel Di Pardi Arruda',
 )
