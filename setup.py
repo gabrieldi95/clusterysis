@@ -11,6 +11,6 @@ setup(
     description='A library for visualizing clusters.',
     #long_description=long_description,
     long_description_content_type='text/markdown',
-    long_description=README,
+    long_description="Clusterysis",
     author='Gabriel Di Pardi Arruda',
 )
