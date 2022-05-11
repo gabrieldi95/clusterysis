@@ -9,7 +9,8 @@ setup(
     packages=find_packages(include=['clusterysis']),
     version='0.1.0',
     description='A library for visualizing clusters.',
-    long_description=long_description,
+    #long_description=long_description,
+    long_description="""# Clusterysis""",
     long_description_content_type='text/markdown',
     author='Gabriel Di Pardi Arruda',
 )
