@@ -12,6 +12,4 @@ setup(
     long_description=long_description,
     long_description_content_type='text/markdown',
     author='Gabriel Di Pardi Arruda',
-    license='MIT',
-    install_requires=['plotly', 'pandas'],
 )
