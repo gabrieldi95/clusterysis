@@ -20,6 +20,23 @@ class View():
 
         self.view_table()
         self.view_pies()
+        self.view_box()
+
+    def view_box(self):
+        rows=2
+        cols=int(math.ceil(len(self.quant_cols)/2))
+        fig = make_subplots(rows=rows, cols=cols)
+
+        i=0
+        for var in self.quant_cols:
+            row = int(i//cols+1)
+            col = int(i%cols+1)
+            for cluster in self.df[self.cluster_col].unique():
+                marker_color = 'rgb(96, 163, 144)' if cluster==self.diff_cluster else 'rgb(48, 70, 128)'
+                fig.add_trace(go.Box(y=self.df[self.df["cluster"]==cluster][var], boxmean=True, marker_color=marker_color, boxpoints=False, name=f"{cluster}: {var}"),row=row, col=col)
+            i+=1
+        fig.update_layout(height=1000, title_text="Side By Side Subplots")
+        fig.show()
 
     def view_pies(self):
         df_pie = self.df.copy()
