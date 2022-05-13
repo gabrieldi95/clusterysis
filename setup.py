@@ -7,7 +7,7 @@ long_description = (this_directory / "README.md").read_text()
 setup(
     name='clusterysis',
     packages=find_packages(include=['clusterysis']),
-    version='1.0.0',
+    version='1.0.1',
     description='A library for visualizing clusters.',
     long_description=long_description,
     long_description_content_type='text/markdown',
@@ -17,5 +17,6 @@ setup(
         'pandas',
         'plotly',
         'matplotlib'
-    ]
+    ],
+    url='https://github.com/gabrieldi95/clusterysis',
 )
