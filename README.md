@@ -12,15 +12,15 @@ Just pass a Dataframe with a cluster column to see several charts.
 
 A table with the mean of each quantitative variable:
 
-![alt text](doc/img/table.png)
+![](https://raw.githubusercontent.com/gabrieldi95/clusterysis/master/doc/img/table.png)
 
 Cluster composition of each categorical variable:
 
-![alt text](doc/img/pie.png)
+![](https://raw.githubusercontent.com/gabrieldi95/clusterysis/master/doc/img/pie.png)
 
 Boxplot chart for quantitative variables:
 
-![alt text](doc/img/box.png)
+![](https://raw.githubusercontent.com/gabrieldi95/clusterysis/master/doc/img/box.png)
 
 ## Parameters:
 
@@ -36,5 +36,4 @@ cly.View(
     diff_cluster=0
 )
 ```
-
-![alt text](doc/img/box2.png)
+![](https://raw.githubusercontent.com/gabrieldi95/clusterysis/master/doc/img/box2.png)
